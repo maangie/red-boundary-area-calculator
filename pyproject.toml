@@ -7,3 +7,8 @@ dependencies = [
     "opencv-python-headless>=5.0.0.93",
     "pillow>=13.0.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
