@@ -73,3 +73,9 @@ uv run count_enclosed_pixels.py
 ```bash
 uv run left_red_height.py
 ```
+
+## テスト
+
+```bash
+uv run pytest test_red_boundary.py -v
+```
