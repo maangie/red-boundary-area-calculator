@@ -54,20 +54,22 @@
 
 ## 使い方
 
+依存パッケージは [uv](https://docs.astral.sh/uv/) で管理しています。
+
 黒い寸法文字や寸法線を取り除く場合は、次のコマンドを実行します。
 
 ```bash
-python3 remove_black.py right-angle-curved-boundary-layout-164m-131m-220m.jpg output.jpg
+uv run remove_black.py right-angle-curved-boundary-layout-164m-131m-220m.jpg output.jpg
 ```
 
 赤線で囲まれた部分のピクセル数を求める場合は、次のコマンドを実行します。
 
 ```bash
-python3 count_enclosed_pixels.py
+uv run count_enclosed_pixels.py
 ```
 
 左側の赤線の高さを求める場合は、次のコマンドを実行します。
 
 ```bash
-python3 left_red_height.py
+uv run left_red_height.py
 ```
